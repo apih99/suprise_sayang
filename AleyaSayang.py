@@ -1,9 +1,6 @@
 import streamlit as st
 import time
 
-import base64
-
-
 # Function to add balloon and hearts animation
 def add_balloon_hearts():
     st.balloons()  # adds balloon animation
@@ -55,9 +52,7 @@ Forever yours,
 
 Shahrul Hafiz 💘
     """)
-    
-    # Show the picture
-    st.image("girlfriend_photo.jpg", use_container_width=True)
+
     
     # Add animations
     add_balloon_hearts()

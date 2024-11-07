@@ -2,3 +2,4 @@ streamlit
 PIL
 time
 base64
+Image

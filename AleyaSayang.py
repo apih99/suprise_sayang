@@ -3,8 +3,6 @@ import time
 from PIL import Image
 import base64
 
-# Load your girlfriend's picture
-girlfriend_image = Image.open("Sayang.JPG")  # replace with the actual image file name
 
 # Function to add balloon and hearts animation
 def add_balloon_hearts():
@@ -59,7 +57,7 @@ Shahrul Hafiz 💘
     """)
     
     # Show the picture
-    st.image(girlfriend_image, use_container_width=True)
+    st.image("girlfriend_photo.jpg", use_container_width=True)
     
     # Add animations
     add_balloon_hearts()

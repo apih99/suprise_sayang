@@ -1,6 +1,7 @@
 import streamlit as st
 import time
-
+from PIL import Image
+import base64
 
 # Load your girlfriend's picture
 girlfriend_image = Image.open("Sayang.jpg")

@@ -1,6 +1,9 @@
 import streamlit as st
 import time
 
+
+# Load your girlfriend's picture
+girlfriend_image = Image.open("Sayang.jpg")
 # Function to add balloon and hearts animation
 def add_balloon_hearts():
     st.balloons()  # adds balloon animation
@@ -53,7 +56,8 @@ Forever yours,
 Shahrul Hafiz 💘
     """)
 
-    
+      # Show the picture
+    st.image(girlfriend_image, use_column_width=True)
     # Add animations
     add_balloon_hearts()
 else:
